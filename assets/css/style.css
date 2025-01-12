@@ -179,11 +179,10 @@ main section:nth-child(3) {
 }
 .article-list img {
     width: 35%;
-    height: 95%;
 }
 
 .article-post {
-    width: 50%;
+    width: 60%;
     padding-right: 1.5rem;
     flex-grow: 1;
     display: flex;
