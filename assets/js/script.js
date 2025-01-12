@@ -32,4 +32,4 @@ window.addEventListener("scroll", function() {
     } else {
         resetNavbar();
     }
-})
+}) 
