@@ -280,43 +280,6 @@ footer h3 {
     font-size: 0.8rem;
 }
 
-@media screen and (max-width: 991px) {
-    .box {
-        width: 90%;
-    }
-    .box-title {
-        width: 90%;
-    }
-    .box-title h2 {
-        width: 50%;
-    }
-    .trending-post-box {
-        width: 90%;
-    }
-    main section:nth-child(3) {
-        width: 90%;
-    }
-    .trending-post {
-        width: 48%;
-    }
-    #trending-box {
-        width: 90%;
-    }
-    main section:nth-child(3) {
-        flex-direction: column;
-    }
-    footer {
-        order: -1;
-        width: 100%;
-        margin-bottom: 2rem;
-        position: initial;
-    }
-    #article-section {
-        margin-right: 0;
-    }
-    
-}
-
 @media screen and (max-width: 575px) {
     .box {
         width: 95%;
@@ -354,4 +317,41 @@ footer h3 {
     main section:first-of-type {
         overflow: hidden;
     }
+}
+
+@media screen and (max-width: 991px) {
+    .box {
+        width: 90%;
+    }
+    .box-title {
+        width: 90%;
+    }
+    .box-title h2 {
+        width: 50%;
+    }
+    .trending-post-box {
+        width: 90%;
+    }
+    main section:nth-child(3) {
+        width: 90%;
+    }
+    .trending-post {
+        width: 48%;
+    }
+    #trending-box {
+        width: 90%;
+    }
+    main section:nth-child(3) {
+        flex-direction: column;
+    }
+    footer {
+        order: -1;
+        width: 100%;
+        margin-bottom: 2rem;
+        position: initial;
+    }
+    #article-section {
+        margin-right: 0;
+    }
+    
 }
